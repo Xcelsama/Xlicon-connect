@@ -1,17 +1,13 @@
 {
-  "name": "xlicon-session",
+  "name": "xlicon-session-vercel",
   "version": "1.0.0",
-  "description": "Pairing site that gives you a SESSION_ID for XLICON-MD (QR or pairing code).",
-  "main": "server.js",
-  "scripts": {
-    "start": "node server.js"
-  },
-  "engines": {
-    "node": ">=20"
-  },
+  "description": "XLICON-MD session site (QR + pairing code) built for Vercel Functions.",
+  "private": true,
+  "engines": { "node": "22.x" },
   "dependencies": {
+    "@upstash/redis": "^1.34.0",
+    "@vercel/functions": "^2.0.0",
     "baileys": "7.0.0-rc14",
-    "express": "^4.18.1",
     "pino": "^9.0.0",
     "qrcode": "^1.5.4"
   }

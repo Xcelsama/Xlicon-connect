@@ -1,0 +1,6 @@
+{
+  "functions": {
+    "api/start.js": { "maxDuration": 300 },
+    "api/status.js": { "maxDuration": 10 }
+  }
+}
