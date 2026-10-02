@@ -1,0 +1,18 @@
+{
+  "name": "xlicon-session",
+  "version": "1.0.0",
+  "description": "Pairing site that gives you a SESSION_ID for XLICON-MD (QR or pairing code).",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "baileys": "7.0.0-rc14",
+    "express": "^4.18.1",
+    "pino": "^9.0.0",
+    "qrcode": "^1.5.4"
+  }
+}
